@@ -7,16 +7,15 @@ body.universo{
 }
 
 
-#universo{
-    margin-top: 64px;
-    
+#universo{       
     color: white;
     display: flex;
     flex-direction: column;
-    background-color: red;
-    justify-content: center;
-    height: 100%;
     
+    height: 100%;
+    padding: 100px;
+    gap: 16px;    
+    color: #E1E1E6;
 }
 
  #universo h1{
@@ -25,4 +24,6 @@ body.universo{
 
  #universo p{
     width: 50%;
+    font-size: 18px;
+    font-weight: regular;
  }
