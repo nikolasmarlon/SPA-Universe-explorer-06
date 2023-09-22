@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    padding: 40px 72px;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

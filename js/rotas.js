@@ -27,6 +27,8 @@ export class Rotas {
         const rota = this.rotas[pathname] || this.rotas[404]
 
 
+        document.body.className = pathname.substring(1) // remove a barra inicial (/)
+
         // Promises
         // Fetch sempre retorna uma promessa
         // fetch ( ir buscar )
