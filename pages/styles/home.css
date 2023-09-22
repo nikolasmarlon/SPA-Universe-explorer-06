@@ -13,21 +13,26 @@ body {
     display: flex;
     flex-direction: column;
 
-    
+    background-color: red;
 }
 
-#home{
-    display: flex;
-    flex-direction: column;
+#app #home-container{
+    
+    height: 100%;
+    display: grid;
     align-items: center;
     
 }
 
-#app{    
-    margin-top: 172px;
-    display: grid;
-    justify-items: center;
-    place-content: center;
+#home{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#app{           
+    height: 100vh;
 }
 
 #home h1{

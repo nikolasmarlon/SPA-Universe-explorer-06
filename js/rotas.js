@@ -26,10 +26,23 @@ export class Rotas {
         // Pegar a rota
         const rota = this.rotas[pathname] || this.rotas[404]
 
-       
+        
+        // Remove a classe 'ativo' de todos os botões do menu
+        const menuButtons = document.querySelectorAll('.menu-button');
+        menuButtons.forEach(button => button.classList.remove('ativo'));
+        
+        // Adiciona a classe 'ativo' ao botão do menu correspondente à página atual
+        const button = document.querySelector(`.menu-button[data-rota="${pathname.substring(1)}"]`);
 
-
+        console.log(button)
+        console.log(pathname)
+        
+        if (button) {
+            button.classList.add('ativo');            
+        }
+        
         document.body.className = pathname.substring(1) // remove a barra inicial (/)
+
         
 
         // Promises

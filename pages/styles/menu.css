@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav{
     display: flex;
     padding: 40px 72px;
     gap: 32px;
-    align-items: center;
-    
+    align-items: center;    
+    background-color: blue;
 }
 
 nav ul{
@@ -17,9 +23,12 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #C4C4CC;
+    font-weight: normal;
+    font-size: 21px;
 }
 
 .ativo{
-    color: red;
+    color: #fff;
+    font-weight: 700;
 }

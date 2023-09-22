@@ -5,3 +5,24 @@ body.universo{
     background-size: cover;
     height: 100vh;
 }
+
+
+#universo{
+    margin-top: 64px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+ #universo h1{
+    font-size: 48px;
+ }
+
+ #universo p{
+    width: 50%;
+ }
