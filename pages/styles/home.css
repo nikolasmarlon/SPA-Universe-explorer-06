@@ -1,5 +1,11 @@
 
 
+body, button, span, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 body {
     background: url('../../assets/mountains-universe-1.png')no-repeat center center;
     background-size: cover;
@@ -14,11 +20,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
 
 #app{    
-    height: 100vh;
+    margin-top: 172px;
     display: grid;
     justify-items: center;
     place-content: center;
@@ -27,7 +33,8 @@ body {
 #home h1{
     color: white;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
+
 }
 
 #home a {
@@ -36,6 +43,7 @@ body {
     padding: 12px 32px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 700;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase; 
