@@ -5,3 +5,25 @@ body.explorar{
     background-size: cover;
     height: 100vh;
 }
+
+
+#explorar{       
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    padding: 100px;
+    gap: 16px;    
+    color: #E1E1E6;
+}
+
+ #explorar h1{
+    font-size: 48px;
+ }
+
+ #explorar p{
+    width: 650px;
+    font-size: 18px;
+    font-weight: regular;
+ }
